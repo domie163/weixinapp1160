@@ -1,0 +1,474 @@
+{
+	"topWindow": {
+		"path": "windows/page_header.vue",
+		"style": {
+			"height": "60px"
+		},
+		"matchMedia": {
+			"minWidth": 1200 //生效条件，当窗口宽度大于768px时显示
+		}
+	},
+	"pages": [{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path" : "pages/webview/webview",
+			"style" :
+			{
+				"navigationBarTitleText": "网址跳转"
+			}
+		},
+		{
+			"path": "pages/comment/edit",
+			"style": {
+				"navigationBarTitleText": "评论"
+			}
+		},
+		{
+			"path": "pages/media/music",
+			"style": {
+				"navigationBarTitleText": "音乐",
+				"backgroundColor": "#000000"
+			}
+		}, {
+			"path": "pages/media/image",
+			"style": {
+				"navigationBarTitleText": "图片预览",
+				"backgroundColor": "#000000"
+			}
+		}, {
+			"path": "pages/media/video",
+			"style": {
+				"navigationBarTitleText": "视频",
+				"backgroundColor": "#000000"
+			}
+		}, {
+			"path": "pages/account/forgot",
+			"style": {
+				"navigationBarTitleText": "找回密码"
+			}
+		}, {
+			"path": "pages/account/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/account/register",
+			"style": {
+				"navigationBarTitleText": "注册"
+			}
+		},
+		{
+			"path": "pages/article/list",
+			"style": {
+				"navigationBarTitleText": "每日用料"
+			}
+		},{
+			"path": "pages/article/index",
+			"style": {
+				"navigationBarTitleText": "每日用料列表"
+			}
+		}, {
+			"path": "pages/article/details",
+			"style": {
+				"navigationBarTitleText": "每日用料详情"
+			}
+		},
+		{
+			"path": "pages/goods/list",
+			"style": {
+				"navigationBarTitleText": "产品展示"
+			}
+		}, {
+			"path": "pages/goods/details",
+			"style": {
+				"navigationBarTitleText": "产品详情"
+			}
+		}, {
+			"path": "pages/cart/index",
+			"style": {
+				"navigationBarTitleText": "购物车"
+			}
+		}, {
+			"path": "pages/cart/list",
+			"style": {
+				"navigationBarTitleText": "购物车"
+			}
+		}, {
+			"path": "pages/order/index",
+			"style": {
+				"navigationBarTitleText": "我的订单"
+			}
+		}, {
+			"path": "pages/order/list",
+			"style": {
+				"navigationBarTitleText": "我的订单"
+			}
+		}, {
+			"path": "pages/order/details",
+			"style": {
+				"navigationBarTitleText": "订单详情"
+			}
+		}, {
+			"path": "pages/pay/index",
+			"style": {
+				"navigationBarTitleText": "支付"
+			}
+		},
+		{
+			"path": "pages/user/address",
+			"style": {
+				"navigationBarTitleText": "收货地址"
+			}
+		}, {
+			"path": "pages/user/address_edit",
+			"style": {
+				"navigationBarTitleText": "收货地址管理"
+			}
+		},
+		{
+			"path": "pages/notice/list",
+			"style": {
+				"navigationBarTitleText": "公告消息列表"
+			}
+		},
+		{
+			"path": "pages/notice/details",
+			"style": {
+				"navigationBarTitleText": "公告消息"
+			}
+		},
+							// 菜品信息列表路由
+		{
+			"path": "pages/dish_information/list",
+			"style": {
+				"navigationBarTitleText": "菜品信息列表"
+			}
+		},
+				// 菜品信息详情路由
+		{
+			"path": "pages/dish_information/details",
+			"style": {
+				"navigationBarTitleText": "菜品信息"
+			}
+		},
+											// 套餐信息列表路由
+		{
+			"path": "pages/package_information/list",
+			"style": {
+				"navigationBarTitleText": "套餐信息列表"
+			}
+		},
+				// 套餐信息详情路由
+		{
+			"path": "pages/package_information/details",
+			"style": {
+				"navigationBarTitleText": "套餐信息"
+			}
+		},
+							// 订单信息编辑路由
+		{
+			"path": "pages/order_information/edit",
+			"style": {
+				"navigationBarTitleText": "订单信息"
+			}
+		},
+				// 订单信息列表路由
+		{
+			"path": "pages/order_information/list",
+			"style": {
+				"navigationBarTitleText": "订单信息列表"
+			}
+		},
+						// 订单退款列表路由
+		{
+			"path": "pages/order_refund/list",
+			"style": {
+				"navigationBarTitleText": "订单退款列表"
+			}
+		},
+						// 订单状态列表路由
+		{
+			"path": "pages/order_status/list",
+			"style": {
+				"navigationBarTitleText": "订单状态列表"
+			}
+		},
+									// 联系客服列表路由
+		{
+			"path": "pages/contact_customer_service/list",
+			"style": {
+				"navigationBarTitleText": "联系客服列表"
+			}
+		},
+						// 关于我们列表路由
+		{
+			"path": "pages/about_us/list",
+			"style": {
+				"navigationBarTitleText": "关于我们列表"
+			}
+		},
+											// 注册用户列表路由
+		{
+			"path": "pages/registered_users/table",
+			"style": {
+				"navigationBarTitleText": "注册用户列表"
+			}
+		},
+		// 注册用户编辑路由
+		{
+			"path": "pages/registered_users/view",
+			"style": {
+				"navigationBarTitleText": "注册用户详情"
+			}
+		},
+					// 口味管理列表路由
+		{
+			"path": "pages/flavor_management/table",
+			"style": {
+				"navigationBarTitleText": "口味管理列表"
+			}
+		},
+		// 口味管理编辑路由
+		{
+			"path": "pages/flavor_management/view",
+			"style": {
+				"navigationBarTitleText": "口味管理详情"
+			}
+		},
+				// 员工列表路由
+		{
+			"path": "pages/staff/table",
+			"style": {
+				"navigationBarTitleText": "员工列表"
+			}
+		},
+		// 员工编辑路由
+		{
+			"path": "pages/staff/view",
+			"style": {
+				"navigationBarTitleText": "员工详情"
+			}
+		},
+				// 套餐信息列表路由
+		{
+			"path": "pages/package_information/table",
+			"style": {
+				"navigationBarTitleText": "套餐信息列表"
+			}
+		},
+		// 套餐信息编辑路由
+		{
+			"path": "pages/package_information/view",
+			"style": {
+				"navigationBarTitleText": "套餐信息详情"
+			}
+		},
+				// 套餐分类列表路由
+		{
+			"path": "pages/package_classification/table",
+			"style": {
+				"navigationBarTitleText": "套餐分类列表"
+			}
+		},
+		// 套餐分类编辑路由
+		{
+			"path": "pages/package_classification/view",
+			"style": {
+				"navigationBarTitleText": "套餐分类详情"
+			}
+		},
+				// 订单信息列表路由
+		{
+			"path": "pages/order_information/table",
+			"style": {
+				"navigationBarTitleText": "订单信息列表"
+			}
+		},
+		// 订单信息编辑路由
+		{
+			"path": "pages/order_information/view",
+			"style": {
+				"navigationBarTitleText": "订单信息详情"
+			}
+		},
+				// 订单退款列表路由
+		{
+			"path": "pages/order_refund/table",
+			"style": {
+				"navigationBarTitleText": "订单退款列表"
+			}
+		},
+		// 订单退款编辑路由
+		{
+			"path": "pages/order_refund/view",
+			"style": {
+				"navigationBarTitleText": "订单退款详情"
+			}
+		},
+				// 订单状态列表路由
+		{
+			"path": "pages/order_status/table",
+			"style": {
+				"navigationBarTitleText": "订单状态列表"
+			}
+		},
+		// 订单状态编辑路由
+		{
+			"path": "pages/order_status/view",
+			"style": {
+				"navigationBarTitleText": "订单状态详情"
+			}
+		},
+				// 已完成订单列表路由
+		{
+			"path": "pages/completed_order/table",
+			"style": {
+				"navigationBarTitleText": "已完成订单列表"
+			}
+		},
+		// 已完成订单编辑路由
+		{
+			"path": "pages/completed_order/view",
+			"style": {
+				"navigationBarTitleText": "已完成订单详情"
+			}
+		},
+				// 联系客服列表路由
+		{
+			"path": "pages/contact_customer_service/table",
+			"style": {
+				"navigationBarTitleText": "联系客服列表"
+			}
+		},
+		// 联系客服编辑路由
+		{
+			"path": "pages/contact_customer_service/view",
+			"style": {
+				"navigationBarTitleText": "联系客服详情"
+			}
+		},
+				// 关于我们列表路由
+		{
+			"path": "pages/about_us/table",
+			"style": {
+				"navigationBarTitleText": "关于我们列表"
+			}
+		},
+		// 关于我们编辑路由
+		{
+			"path": "pages/about_us/view",
+			"style": {
+				"navigationBarTitleText": "关于我们详情"
+			}
+		},
+				// 分类销售额列表路由
+		{
+			"path": "pages/classified_sales/table",
+			"style": {
+				"navigationBarTitleText": "分类销售额列表"
+			}
+		},
+		// 分类销售额编辑路由
+		{
+			"path": "pages/classified_sales/view",
+			"style": {
+				"navigationBarTitleText": "分类销售额详情"
+			}
+		},
+				// 分类总销量列表路由
+		{
+			"path": "pages/total_sales_by_category/table",
+			"style": {
+				"navigationBarTitleText": "分类总销量列表"
+			}
+		},
+		// 分类总销量编辑路由
+		{
+			"path": "pages/total_sales_by_category/view",
+			"style": {
+				"navigationBarTitleText": "分类总销量详情"
+			}
+		},
+			{
+			"path": "pages/user/collect",
+			"style": {
+				"navigationBarTitleText": "我的收藏"
+			}
+		},
+		{
+			"path": "pages/user/index",
+			"style": {
+				"navigationBarTitleText": "我"
+			}
+		}, {
+			"path": "pages/user/password",
+			"style": {
+				"navigationBarTitleText": "修改密码"
+			}
+		}, {
+			"path": "pages/user/info",
+			"style": {
+				"navigationBarTitleText": "基本信息"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "长盛",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	},
+	"tabBar": {
+		"color": "#8a8a8a",
+		"selectedColor": "#3388FF",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/img/home_a.png",
+				"selectedIconPath": "static/img/home_b.png"
+			},
+			{
+				"pagePath": "pages/cart/index",
+				"text": "购物车",
+				"iconPath": "static/img/cart_a.png",
+				"selectedIconPath": "static/img/cart_b.png"
+			},
+			{
+				"pagePath": "pages/article/index",
+				"text": "每日用料",
+				"iconPath": "static/img/article_a.png",
+				"selectedIconPath": "static/img/article_b.png"
+			},
+			{
+				"pagePath": "pages/user/index",
+				"text": "我的",
+				"iconPath": "static/img/my_a.png",
+				"selectedIconPath": "static/img/my_b.png"
+			}
+		]
+	},
+	"condition": { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [{
+			"name": "", //模式名称
+			"path": "", //启动页面，必选
+			"query": "" //启动参数，在页面的onLoad函数里面得到
+		}]
+	},
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"^mm_(.*)": "@/components/mm_vue_ui/base/mm_$1.vue"
+		}
+	}
+}
